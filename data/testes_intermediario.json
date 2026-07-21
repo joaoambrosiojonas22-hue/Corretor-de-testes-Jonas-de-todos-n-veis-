@@ -1,0 +1,47 @@
+[
+  {
+    "id": 5,
+    "nivel": "intermediario",
+    "tipo": "multipla_escolha",
+    "pergunta": "Qual é a diferença entre uma lista e uma tupla em Python?",
+    "opcoes": [
+      "Não há diferença",
+      "Listas são mutáveis e tuplas são imutáveis",
+      "Tuplas são mais rápidas",
+      "Listas só podem conter números"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "A principal diferença é que listas podem ser modificadas após criação, enquanto tuplas não.",
+    "dificuldade": 2,
+    "palavras_chave": ["mutável", "imutável"]
+  },
+  {
+    "id": 6,
+    "nivel": "intermediario",
+    "tipo": "verdadeiro_falso",
+    "pergunta": "Em Python, um dicionário é ordenado (a partir da versão 3.7+).",
+    "resposta_correta": true,
+    "explicacao": "A partir do Python 3.7, os dicionários mantêm a ordem de inserção.",
+    "dificuldade": 2
+  },
+  {
+    "id": 7,
+    "nivel": "intermediario",
+    "tipo": "dissertativa",
+    "pergunta": "Descreva o que é uma função em Python e por que é importante usá-las.",
+    "resposta_correta": "Uma função é um bloco de código reutilizável que realiza uma tarefa específica. É importante porque promove reutilização de código, manutenibilidade e organização.",
+    "explicacao": "Funções são essenciais para escrever código limpo e eficiente.",
+    "dificuldade": 2,
+    "palavras_chave": ["bloco", "código", "reutilizável", "tarefa", "organização"]
+  },
+  {
+    "id": 8,
+    "nivel": "intermediario",
+    "tipo": "numerica",
+    "pergunta": "Qual é o resultado de 2^3 (2 elevado a 3)?",
+    "resposta_correta": 8,
+    "explicacao": "2^3 = 2 * 2 * 2 = 8",
+    "dificuldade": 2,
+    "margem_erro": 0.0
+  }
+]

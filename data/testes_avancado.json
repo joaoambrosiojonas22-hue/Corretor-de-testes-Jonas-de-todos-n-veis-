@@ -1,0 +1,47 @@
+[
+  {
+    "id": 9,
+    "nivel": "avancado",
+    "tipo": "multipla_escolha",
+    "pergunta": "Qual é a complexidade de tempo do algoritmo de busca binária?",
+    "opcoes": [
+      "O(n)",
+      "O(log n)",
+      "O(n^2)",
+      "O(n log n)"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "A busca binária tem complexidade O(log n) pois divide o espaço de busca pela metade a cada iteração.",
+    "dificuldade": 3,
+    "palavras_chave": ["logarítmica", "O(log n)"]
+  },
+  {
+    "id": 10,
+    "nivel": "avancado",
+    "tipo": "verdadeiro_falso",
+    "pergunta": "O padrão Singleton garante que apenas uma instância de uma classe seja criada durante toda a execução do programa.",
+    "resposta_correta": true,
+    "explicacao": "O padrão Singleton é um padrão de design que restringe a instanciação de uma classe a um único objeto.",
+    "dificuldade": 3
+  },
+  {
+    "id": 11,
+    "nivel": "avancado",
+    "tipo": "dissertativa",
+    "pergunta": "Explique o conceito de programação orientada a objetos (POO) e seus princípios fundamentais.",
+    "resposta_correta": "POO é um paradigma que organiza o código em objetos que contêm dados e métodos. Os princípios fundamentais são: encapsulamento, herança, polimorfismo e abstração.",
+    "explicacao": "POO é fundamental para criar código modular, reusável e fácil de manter.",
+    "dificuldade": 3,
+    "palavras_chave": ["encapsulamento", "herança", "polimorfismo", "abstração"]
+  },
+  {
+    "id": 12,
+    "nivel": "avancado",
+    "tipo": "numerica",
+    "pergunta": "Qual é a complexidade de tempo do algoritmo de ordenação Quick Sort no melhor caso?",
+    "resposta_correta": 5.39,
+    "explicacao": "Quick Sort tem complexidade O(n log n) no melhor caso. Considerando n=32: log(32)≈5.32",
+    "dificuldade": 3,
+    "margem_erro": 0.1
+  }
+]
